@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'social_auth.middleware.SocialAuthExceptionMiddleware'
+    'social_auth.middleware.SocialAuthExceptionMiddleware',
 ]
 
 ROOT_URLCONF = 'Certifie.urls'
