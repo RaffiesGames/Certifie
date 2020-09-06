@@ -1,0 +1,40 @@
+<!<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+	{% load socialaccount %}
+	
+	<head>
+		<title>LOGIN</title>
+	</head>
+
+	<body>
+        <!--<form method='POST' action=''>
+			{% csrf_token %}
+			username:
+		<input type="text" name='username'>
+			<br>
+			password:
+			<input type="password" name='password'>
+
+	
+			{{ form.password1.label }}
+			{{ form.password1}}
+			<br>
+
+			{% for message in messages %}
+				<p> {{message}} </p>
+			{% endfor %}
+			
+			
+	
+			<input type="submit" name="login">-->
+
+			<p> login with google </p>
+			<a href="{% provider_login_url 'google' %}">Login with Google</a>
+
+		</form>
+    </body>
+
+
+</html>        
