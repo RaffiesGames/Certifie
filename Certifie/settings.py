@@ -28,6 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['.certifiewebsite.herokuapp.com', '.accounts.google.com',  '127.0.0.1', 'localhost']
 
+USE_X_FORWARDED_HOST = True
 
 # Application definition
 
